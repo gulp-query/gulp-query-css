@@ -1,0 +1,26 @@
+{
+  "name": "gulp-query-css",
+  "version": "1.0.1",
+  "description": "This plugin provides automatic source maps, copy, combine and rename CSS, autoprefixing and minification.",
+  "main": "index.js",
+  "author": "Marat Nuriev",
+  "email": "nurieff@gmail.com",
+  "license": "MIT",
+  "repository": "https://github.com/gulp-query/gulp-query-css",
+  "keywords": [
+    "css",
+    "autoprefixer",
+    "cssnano",
+    "gulp",
+    "gulp-query",
+    "gulp-query-plugin"
+  ],
+  "dependencies": {
+    "gulp-query": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-if": "^2.0.2",
+    "gulp-sourcemaps": "^2.6.1"
+  }
+}
