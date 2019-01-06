@@ -16,7 +16,7 @@ Paste the code into your `gulpfile.js` and configure it
 let build = require('gulp-query')
   , css = require('gulp-query-css')
 ;
-cocktail(function (query) {
+build((query) => {
     query.plugins([css])
       .css(['1.css','2.css'],'css/12.css','onetwo')
       .css('css_source/*.css','css/')
